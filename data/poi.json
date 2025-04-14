@@ -1,0 +1,20 @@
+[
+  {
+    "type": "Feature",
+    "properties": {
+      "title": {
+        "en": "Tartu",
+        "ua": "Тарту",
+        "ru": "Тарту"
+      },
+      "country": ["EST"],
+      "date": "21.05.2024",
+      "url": "https://www.youtube.com/watch?v=r7EJWj1BlJo",
+      "img": "photo_53.webp"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [26.722222, 58.380076]
+    }
+  }
+]
