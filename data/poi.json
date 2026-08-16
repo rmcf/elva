@@ -1,20 +1,106 @@
-[
-  {
-    "type": "Feature",
-    "properties": {
-      "title": {
-        "en": "Tartu",
-        "ua": "Тарту",
-        "ru": "Тарту"
+{
+  "type": "FeatureCollection",
+  "name": "poi",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "title_en": "Raudsepp",
+        "title_ee": "Raudsepp",
+        "type": "bench",
+        "routes": ["lower_lake", "all_elva"]
       },
-      "country": ["EST"],
-      "date": "21.05.2024",
-      "url": "https://www.youtube.com/watch?v=r7EJWj1BlJo",
-      "img": "photo_53.webp"
+      "geometry": { "type": "Point", "coordinates": [26.41636, 58.22526] }
     },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [26.722222, 58.380076]
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "title_en": "Famous tree",
+        "title_ee": "Famous tree",
+        "type": "tree",
+        "routes": ["lower_lake", "all_elva"]
+      },
+      "geometry": { "type": "Point", "coordinates": [26.41603, 58.2304] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "title_en": "Church en",
+        "title_ee": "Church ee",
+        "type": "church",
+        "routes": ["lower_lake", "all_elva"]
+      },
+      "geometry": { "type": "Point", "coordinates": [26.41864, 58.22095] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "title_en": "Bowling",
+        "title_ee": "Keegel",
+        "type": "cafe",
+        "routes": ["lower_lake", "all_elva"]
+      },
+      "geometry": { "type": "Point", "coordinates": [26.41277, 58.22247] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "title_en": "Photo zone 1",
+        "title_ee": "Photo zone 1",
+        "type": "photo",
+        "routes": ["lower_lake", "all_elva"]
+      },
+      "geometry": { "type": "Point", "coordinates": [26.40643, 58.22853] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "title_en": "Beach en",
+        "title_ee": "Beeach ee",
+        "type": "beach",
+        "routes": ["lower_lake", "all_elva"]
+      },
+      "geometry": { "type": "Point", "coordinates": [26.40661, 58.22957] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "title_en": "Sport 1",
+        "title_ee": "Sport 1",
+        "type": "sport",
+        "routes": ["lower_lake", "all_elva"]
+      },
+      "geometry": { "type": "Point", "coordinates": [26.40485, 58.22597] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "title_en": "Info board",
+        "title_ee": "Info board",
+        "type": "info",
+        "routes": ["lower_lake", "all_elva"]
+      },
+      "geometry": { "type": "Point", "coordinates": [26.41095, 58.2237] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "title_en": "WC",
+        "title_ee": "WC",
+        "type": "wc",
+        "routes": ["lower_lake", "all_elva"]
+      },
+      "geometry": { "type": "Point", "coordinates": [26.41662, 58.22491] }
     }
-  }
-]
+  ]
+}
